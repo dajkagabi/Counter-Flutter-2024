@@ -52,6 +52,9 @@ class _CounterPageState extends State<CounterPage> {
                   fontWeight: FontWeight.bold,
                   color: Colors.green),
             ),
+            //Gomb
+            ElevatedButton(
+                onPressed: _incrementCounter, child: Text("Hozzáad")),
           ],
         ),
       ),
